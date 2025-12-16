@@ -91,4 +91,22 @@ Reads weather data from Kafka and displays it.
 ---
 
 ##One can you QUIXSTREANS opensource library for the same
+##some common terms using with Kafka
+
+| Term           | Definition                                                                     |
+| -------------- | ------------------------------------------------------------------------------ |
+| Producer       | Application that sends messages to Kafka topicsinstaclustr+2​.                 |
+| Consumer       | Application that reads messages from Kafka topicsinstaclustr+2​.               |
+| Topic          | Category or feed name to which messages are publishedgeeksforgeeks+2​.         |
+| Partition      | Sub-division of a topic for parallel processinggeeksforgeeks+2​.               |
+| Broker         | Kafka server that stores and manages messagesinstaclustr+2​.                   |
+| Consumer Group | Set of consumers working together to consume a topicconfluent+2​.              |
+| Offset         | Unique position of a message within a partitionconfluent+1​.                   |
+| Replication    | Copies of partitions for fault toleranceredhat+1​.                             |
+| Leader         | Broker responsible for reads/writes for a partitionredhat+1​.                  |
+| Follower       | Broker that copies data from the leader for redundancyredhat+1​.               |
+| ZooKeeper      | Service that coordinates brokers and manages cluster statedata-flair+1​.       |
+| Cluster        | Group of brokers working togetherdata-flair+1​.                                |
+| Message        | Data sent from producer to consumerdata-flair+1​.                              |
+| API            | Interfaces for interacting with Kafka (Producer, Consumer, Admin)confluent+1​. |
 
