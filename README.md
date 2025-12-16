@@ -90,7 +90,5 @@ Reads weather data from Kafka and displays it.
 
 ---
 
-## License
-
-MIT License
+##One can you QUIXSTREANS opensource library for the same
 
