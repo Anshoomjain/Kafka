@@ -90,8 +90,8 @@ Reads weather data from Kafka and displays it.
 
 ---
 
-##One can you QUIXSTREANS opensource library for the same
-##some common terms using with Kafka
+## One can you QUIXSTREAMS opensource library for the same
+## some common terms using with Kafka
 
 | Term           | Definition                                                                     |
 | -------------- | ------------------------------------------------------------------------------ |
