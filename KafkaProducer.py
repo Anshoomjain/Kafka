@@ -19,6 +19,7 @@ def get_weather():
 
 producer = KafkaProducer(
     bootstrap_servers=['localhost:9092'],
+    api_version=(0, 10, 1),
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
 
