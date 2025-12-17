@@ -9,6 +9,7 @@ def fixed_kafka_consumer():
         topic,
         bootstrap_servers=['localhost:9092'],
         auto_offset_reset='earliest',
+        api_version=(0, 10, 1),
         value_deserializer=lambda m: json.loads(m.decode('utf-8')),
         group_id='weather-consumer-group'
     )
